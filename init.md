@@ -1,10 +1,16 @@
+# brave requirements 
 apt-get install build-essential python-setuptools python3-distutils 
+
+# rez requirements
+apt install git curl wget
+
+
 
 # install nvm for npm 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+nvm install --lts
 
-apt install git curl wget
-
+---
 
 git clone https://github.com/brave/brave-browser.git
 
