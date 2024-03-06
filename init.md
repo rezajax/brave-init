@@ -25,7 +25,7 @@ npm run init
 npm run init -- --target_os=android --target_arch=arm
 
 
-This shell script only works on Debian and Ubuntu but check system requirements for other distros:
+This shell script only works on Debian and Ubuntu but check system requirements for other distros:\
 **cd to brave-browser repo root**
 ./src/build/install-build-deps.sh # for Linux
 
