@@ -16,8 +16,8 @@ git clone https://github.com/brave/brave-browser.git
 
 npm install
 
-**the Chromium source is downloaded, which has a large history (gigabytes of data)**
-**this might take really long to finish depending on internet speed**
+**the Chromium source is downloaded, which has a large history (gigabytes of data)**\
+**this might take really long to finish depending on internet speed**\
 
 npm run init
 
@@ -26,7 +26,7 @@ npm run init -- --target_os=android --target_arch=arm
 
 
 This shell script only works on Debian and Ubuntu but check system requirements for other distros:\
-**cd to brave-browser repo root**
+**cd to brave-browser repo root**\
 ./src/build/install-build-deps.sh # for Linux
 
 # this not working for me!
